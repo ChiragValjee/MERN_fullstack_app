@@ -1,5 +1,17 @@
 Company Blog App
 
+Installation To install and run this Hangman game on your local machine, follow these instructions:
+
+Clone the repository to your local machine using the command: git clone https://github.com/ChiragValjee/MERN_fullstack_app.git
+Navigate to the project directory: cd backend
+Install the dependencies using the command: npm install 
+Start the backend server using the command: npm start
+Navigate out of the backend folder: cd ..
+Navigate into the frontend folder: cd frontend
+Install the dependencies using the command: npm install 
+Start the frontend server using the command: npm start
+Open your browser and go to http://localhost:3000/ to use the app
+
 How to use the app: 
 
 Register:
