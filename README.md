@@ -1,6 +1,6 @@
 <h2>Company Blog App</h2>
 
-Installation To install and run this Hangman game on your local machine, follow these instructions:
+<h4>Installation To install and run this Hangman game on your local machine, follow these instructions:</h4>
 
 Clone the repository to your local machine using the command: git clone https://github.com/ChiragValjee/MERN_fullstack_app.git
 Navigate to the project directory: cd backend
@@ -12,7 +12,7 @@ Install the dependencies using the command: npm install
 Start the frontend server using the command: npm start
 Open your browser and go to http://localhost:3000/ to use the app
 
-How to use the app: 
+<h4>How to use the app:</h4>
 
 Register:
 The user can register by navigating to the registration page and filling out the form with their name, email, and password.
@@ -28,7 +28,7 @@ On the company blog page, the user will be able to view the company's blog and r
 Overall, the user journey of your app involves registering, logging in, and viewing the company blog. The app provides multiple ways for the user to log in, including traditional email/password login and social media login with Google or Facebook. 
 The company blog page allows the user to read posts that the company admin has created.
 
-Modyfying a mongoURI:
+<h4>Modyfying a mongoURI:</h4>
 Locate the MongoDB URI.
 Obtain the new MongoDB URI: You will need to obtain the new URI from your new MongoDB instance. This is hosted by Mongo Atlas.
 Update the URI in your codebase: Once you have the new URI, replace the old URI with the new one in your codebase. 
@@ -36,18 +36,21 @@ Test the connection: After updating the URI, test the connection to ensure that 
 Update any other necessary configuration: If you have any other configuration that is tied to your MongoDB instance, such as database names or user credentials, make sure to update those as well.
 Installing, testing and running the code Installing Clone/Download the project to your computer Open the command prompt/terminal and navigate to the backend folder Run npm install Open another command prompt/terminal navigate to the frontend folder Run npm install
 
-Testing To test the backend: Open the command prompt/terminal and navigate to the backend folder Run npm start to start the server Open another command prompt/terminal without closing the other one and navigate to the backend folder Run npm test to run the backend test(s)
+<h4>Testing To test the backend: </h4>
+Open the command prompt/terminal and navigate to the backend folder Run npm start to start the server Open another command prompt/terminal without closing the other one and navigate to the backend folder Run npm test to run the backend test(s)
 
-To test the frontend Open the command prompt/terminal and navigate to the frontend folder Run npm test to run the frontend test(s)
+<h4>To test the frontend:</h4>
+Open the command prompt/terminal and navigate to the frontend folder Run npm test to run the frontend test(s)
 
 Running the code Open the command prompt/terminal and navigate to the backend folder Run npm start Open another command prompt/terminal without closing the other one and navigate to the frontend folder Run npm start Open http://localhost:3000 to view the application in your browser
 
-Third party API's used:
+<h4>Third party API's used:</h4>
 Google Login and Facebook Login are third-party authentication APIs that allow users to log in to websites or apps using their Google or Facebook account credentials, respectively. 
 These APIs provide an easy and secure way for users to authenticate themselves without having to remember yet another username and password combination.
 When a user chooses to log in using one of these third-party services, the website or app redirects them to the Google or Facebook website to enter their credentials. 
 After the user successfully logs in, the third-party service generates an authentication token that can be used to authenticate the user on the original website or app.
 
+<h4>Security:</h4>
 Security This application has been secured using Helmet.
 Helmet is a middleware for Express.js that helps secure your web applications by setting various HTTP headers. 
 It adds an extra layer of security to your app by protecting it from common vulnerabilities like Cross-Site Scripting (XSS), Clickjacking, and other attacks.
