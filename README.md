@@ -1,4 +1,4 @@
-Company Blog App
+<h2>Company Blog App</h2>
 
 Installation To install and run this Hangman game on your local machine, follow these instructions:
 
