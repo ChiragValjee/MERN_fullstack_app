@@ -12,6 +12,10 @@ Install the dependencies using the command: npm install
 Start the frontend server using the command: npm start
 Open your browser and go to http://localhost:3000/ to use the app
 
+Please use the admin username and password as follows to access the admin page where you will be allowed to add new admins for the blog:
+Email: pi@gmail.com
+password: 1234
+
 <h4>How to use the app:</h4>
 
 Register:
@@ -54,4 +58,11 @@ After the user successfully logs in, the third-party service generates an authen
 Security This application has been secured using Helmet.
 Helmet is a middleware for Express.js that helps secure your web applications by setting various HTTP headers. 
 It adds an extra layer of security to your app by protecting it from common vulnerabilities like Cross-Site Scripting (XSS), Clickjacking, and other attacks.
+
+<h4>Deployment </h4>
+I chose to deploy my app on render.com and opted to deploy the frontend and backend separately. By separating the two, I can independently scale each component and avoid any potential conflicts or dependencies between them. Additionally, deploying the frontend and backend separately provides greater flexibility in choosing the most suitable deployment platforms and tools for each component. Using render.com's straightforward deployment process, I was able to quickly deploy my app with ease.
+
+The app is down due to a render technicallity
+
+Link: "https://porto-rio-blog-app.onrender.com/"
 
