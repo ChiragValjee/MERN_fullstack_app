@@ -10,7 +10,7 @@ const app = express()
 const cors = require('cors')
 app.use(cors())
 app.use(express.json())
-const mongoURI = process.env.MONGO_URI
+const mongoURI = "mongodb+srv://hyperion:1234@carsapp.kkvpa29.mongodb.net/?retryWrites=true&w=majority"
 const mongoose = require('mongoose').default
 const bodyParser = require('body-parser')
 app.use(bodyParser.json())
