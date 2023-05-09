@@ -1,6 +1,6 @@
 <h2>Company Blog App</h2>
 
-<h4>Installation To install and run this Hangman game on your local machine, follow these instructions:</h4>
+<h4>Installation To install and run this Company blog on your local machine, follow these instructions:</h4>
 
 Clone the repository to your local machine using the command: git clone https://github.com/ChiragValjee/MERN_fullstack_app.git
 Navigate to the project directory: cd backend
